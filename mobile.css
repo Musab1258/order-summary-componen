@@ -1,0 +1,48 @@
+body {
+  background-image: url('images/pattern-background-mobile.svg');
+  text-align: center;
+}
+.parent {
+  text-align: center;
+  width: 375px;
+  height: 800px;
+  
+}
+.header {
+  width: 80%;
+  height: 1fr;
+  background-color: white;
+  margin-bottom: 0;
+  border-radius: 0, 1px;
+}
+.top-image {
+  width: 100%;
+  margin: 0;
+  margin-top: 10px;
+}
+.main {
+  width: 80%;
+  height: 1fr;
+  background-color: white;
+}
+h1, p {
+  text-align: center;
+  font-size: 16px;
+}
+.row {
+  font-size: 10px;
+  width: 100%;
+}
+.small-4 {
+  float: left;
+  width: 16.666%;
+  margin: 0 7vw;
+}
+button {
+  width: 80%;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
