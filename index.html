@@ -6,7 +6,9 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <link rel="stylesheet" href="mobile.css" type="text/css" />
+  <link rel="stylesheet" href="css/mobile.css" type="text/css" />
+  
+  <link rel="stylesheet" href="css/desktop.css" type="text/css" />
   
   <title>Frontend Mentor | Order summary card</title>
 
@@ -27,28 +29,32 @@
 
   <div class="main">
   
-  <div class="clearfix">
+  <div class="top">
   <h1>Order Summary</h1>
 
- <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
+  <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
   device anywhere you like!</p>
   </div>
 
-  <div class="row clearfix">
-    <img class="small-4" src="images/icon-music.svg" alt="" />
+  <div class="mid">
     
-    <section class="small-4">
-    <b class="">Annual Plan</b>
-    <p>$59.99/year</p>
+    <section id="mid-img">
+    <img src="images/icon-music.svg" alt="" />
     </section>
     
-    <section class="small-4">
+    <section id="mid-p">
+    <p><b style="color: black;">Annual Plan</b>
+    <br />
+    $59.99/year</p>
+    </section>
+    
+    <section id="mid-a">
     <a href="#">Change</a>
     </section>
   </div>
   
-  <div class="clearfix">
-  <button class="row">Proceed to Payment</button>
+  <div>
+  <button>Proceed to Payment</button>
   <button class="row">Cancel Order</button>
   </div>
   
