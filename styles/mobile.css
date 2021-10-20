@@ -1,48 +1,64 @@
+html {
+  margin: 0;
+  padding: 0;
+}
 body {
+  font-size: 15px;
   background-image: url('images/pattern-background-mobile.svg');
-  text-align: center;
+  background-color: hsl(225, 100%, 94%);
 }
 .parent {
-  text-align: center;
-  width: 375px;
-  height: 800px;
-  
+  display: grid;
 }
 .header {
-  width: 80%;
-  height: 1fr;
+  height: 30vh;
   background-color: white;
-  margin-bottom: 0;
-  border-radius: 0, 1px;
+  border-radius: 10px 10px 0px 0px;
 }
 .top-image {
   width: 100%;
-  margin: 0;
-  margin-top: 10px;
+  height: 100%;
+  border-radius: 10px 10px 0px 0px;
 }
 .main {
-  width: 80%;
   height: 1fr;
   background-color: white;
 }
-h1, p {
+.top h1, .top p {
+  margin: 5vh 6vw 0 6vw;
   text-align: center;
   font-size: 16px;
 }
-.row {
-  font-size: 10px;
-  width: 100%;
+p {
+  color: hsl(224, 23%, 55%);
 }
-.small-4 {
-  float: left;
-  width: 16.666%;
-  margin: 0 7vw;
+.mid {
+  background-color: hsl(225, 100%, 98%);
+  margin: 5vh 5vw 0 5vw;
+  font-size: 10px;
+  display: flex;
+}
+#mid-img, #mid-p {
+  align-self: center;
+  margin: 0 6vw;
+}
+#mid-a {
+  align-self: center;
+  margin-left: 6vw;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
 }
 button {
-  width: 80%;
+  margin: 5vh 5vw;
+  width: 90%;
+  height: 10vh;
+  color: hsl(224, 23%, 55%);
+  background-color: white;
+  border-radius: 10px;
 }
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+button:hover {
+  color: white;
+  background-color: hsl(245, 75%, 52%);
 }
