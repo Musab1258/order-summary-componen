@@ -1,0 +1,21 @@
+@media (min-width: 800px) {
+  .parent {
+    margin: 10vh 10vw;
+  }
+  .top h1, .top p {
+    margin: 2vh 20vw 0 20vw;
+  }
+  .mid {
+    margin-top: 3vh;
+  }
+  #mid-a {
+    margin-left: 17vw;
+  }
+  button {
+    height: 5vh;
+    margin: 2vh 5vw;
+  }
+  .row {
+    margin-bottom: 5vh;
+  }
+}
